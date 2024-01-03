@@ -4,4 +4,3 @@ export default function getResponseFromAPI(){
         error ? rej('5xx status code') : res('2xx status code')
     })
 }
-
