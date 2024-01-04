@@ -1,8 +1,9 @@
-import Building from "./5-building";
+import Building from './5-building';
 
 export default class SkyHighBuilding extends Building {
   constructor(sqft, floors) {
     super(sqft);
+    /* eslint-disable no-underscore-dangle */
     this._floors = floors;
   }
 
@@ -15,6 +16,6 @@ export default class SkyHighBuilding extends Building {
   }
 
   evacuationWarningMessage() {
-    return `Evacuate slowly the ${this._floors} floors`
+    return `Evacuate slowly the ${this._floors} floors`;
   }
 }
