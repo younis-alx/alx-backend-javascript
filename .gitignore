@@ -2,3 +2,4 @@ node_modules/
 vs/
 .vscode/
 *main.js
+package-lock.json
